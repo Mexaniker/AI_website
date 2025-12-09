@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+      output: 'export',
     allowedDevOrigins: ["*.preview.same-app.com"],
     images: {
       unoptimized: true,
@@ -35,4 +36,5 @@ const nextConfig = {
   };
   
   module.exports = nextConfig;
+
   
