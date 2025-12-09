@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
       output: 'export',
+      basePath: '/AI_website'
     allowedDevOrigins: ["*.preview.same-app.com"],
     images: {
       unoptimized: true,
@@ -38,3 +39,4 @@ const nextConfig = {
   module.exports = nextConfig;
 
   
+
